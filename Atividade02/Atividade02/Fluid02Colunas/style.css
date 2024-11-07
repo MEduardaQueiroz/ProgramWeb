@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", system-ui;
+}
+
+
+.container {
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1000px;
+  /* Define uma largura fixa para o contêiner */
+  display: flex;
+  /* Usa Flexbox para organizar as colunas */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.coluna-esquerda, .coluna-direita {
+  padding: 20px;
+}
+
+.coluna-esquerda {
+  width: 60%;
+  background-color: #30aeff; 
+}
+
+.coluna-direita {
+  width: 40%;
+  background-color: #2e91cf; 
+}
+
+header, footer {
+  background-color: #444444; 
+  color: white;
+  text-align: center;
+  padding: 20px;
+  
+}
