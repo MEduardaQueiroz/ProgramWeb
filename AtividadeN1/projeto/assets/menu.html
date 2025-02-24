@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Hamburgueria Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1>Hamburgueria Pirilampus</h1>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="menu.html">Cardápio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="menu">
+        <h2>Cardápio</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/Stacker_Duplo_Bacon-thumb-cupom-m-d.png?mtime=20220825142919&focal=none" alt="Hambúrguer">
+                <div class="menu-item-details">
+                    <h3>Super classico</h3>
+                    <p>Delicioso hambúrguer feito com ingredientes frescos.</p>
+                    <p class="price">R$ 20,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/Chicken-Jr.png?mtime=20230703115832&focal=none" alt="Hambúrguer">
+                <div class="menu-item-details">
+                    <h3>chicken junior </h3>
+                    <p>Delicioso hambúrguer de frango .</p>
+                    <p class="price">R$ 15,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/_800x600_crop_center-center_none/whopper_jr.png?mtime=20231010141030&focal=none&tmtime=20241024164410" alt="Hambúrguer">
+                <div class="menu-item-details">
+                    <h3>salada suprema </h3>
+                    <p>Delicioso hambúrguer feito de saladas com agrotoxicos.</p>
+                    <p class="price">R$ 35,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/CBK-thumb-cupom-m-d-1.png?mtime=20221129151429&focal=none" alt="Pizza">
+                <div class="menu-item-details">
+                    <h3>Pirilampus</h3>
+                    <p>feito com a maior alegria da floresta.</p>
+                    <p class="price">R$ 45,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/chicken-duplo-thumb.png?mtime=20210916143308&focal=none" alt="Hambúrguer">
+                <div class="menu-item-details">
+                    <h3>Hambúrguer unidos</h3>
+                    <p>Delicioso hambúrguer feito para voce e sua parceira.</p>
+                    <p class="price">R$ 35,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/BK-Chicken-Crispy-thumb.png?mtime=20230125075509&focal=none" alt="Hambúrguer">
+                <div class="menu-item-details">
+                    <h3>Mega chicken Artesanal</h3>
+                    <p>explosao de sabores feito pra voce.</p>
+                    <p class="price">R$ 32,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/Rodeio-thumb.png?mtime=20230125075349&focal=none" alt="Hambúrguer">
+                <div class="menu-item-details">
+                    <h3>Vaqueijada Artesanal</h3>
+                    <p>Delicioso hambúrguer com a mistura dos dois mundos.</p>
+                    <p class="price">R$ 22,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/_800x600_crop_center-center_none/BK_Taste_1.0.png?mtime=20250108095524&focal=none&tmtime=20250108105909" alt="Sushi">
+                <div class="menu-item-details">
+                    <h3>Avioes de papel</h3>
+                    <p>Coma esse delicioso hambúrguer e va para as auturas .</p>
+                    <p class="price">R$ 30,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+
+
+                
+
+                
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrinho de Compras -->
+    <section class="cart">
+        <h2>Carrinho de Compras</h2>
+        <div class="cart-items">
+            <!-- Itens do carrinho serão adicionados dinamicamente aqui -->
+        </div>
+
+        <div class="cart-total">
+            <p>Total: <span>R$ 0,00</span></p>
+        </div>
+
+        <button class="checkout-btn">Finalizar Compra</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Hamburgueria Artesanal. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
